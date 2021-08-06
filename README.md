@@ -4,7 +4,7 @@
 注意：
  - 版本：chromium从v88后，彻底地禁止使用flash。项目中的`electron`版本为`^11.4.7`，chromium版本为`87.0.4280.141`。
  - 自定义插件：可以在`electron/assets`下替换你本机的pepeflashplayer插件。
- - 测试：在win10加载成功。macOS Big Sur版本11.3.1加载插件失败。
+ - 测试：在win10, macOS Catalina 10.15.5加载成功。macOS Big Sur版本11.3.1加载插件失败。
 
 # 命令
 开发模式
