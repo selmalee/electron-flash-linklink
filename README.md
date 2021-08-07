@@ -7,6 +7,11 @@
  - 测试：在win10, macOS Catalina 10.15.5加载成功。macOS Big Sur版本11.3.1加载插件失败。
 
 # 命令
+安装依赖
+``` bash
+npm install
+```
+
 开发模式
 ``` bash
 npm start
