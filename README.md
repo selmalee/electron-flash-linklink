@@ -1,9 +1,11 @@
 # 介绍
-因为flash的安全性等问题，很多浏览器都不再支持flash。因此，在 Electron 里，使用 Pepper Flash 插件加载钟爱的flash小游戏，以供随时娱乐^ ^。
+因为flash的安全性等问题，很多浏览器都不再支持flash。比如chrome，自 2021 年起，Adobe 已停止为 Flash Player 插件提供支持。[在任何版本的 Chrome 中，Flash 内容（包括音频和视频）都将无法再正常播放](https://www.blog.google/products/chrome/saying-goodbye-flash-chrome/)。
+
+因此，在 Electron 里，使用 Pepper Flash 插件加载钟爱的flash小游戏，以供随时娱乐^ ^。
 
 注意：
  - 版本：chromium从v88后，彻底地禁止使用flash。项目中的`electron`版本为`^11.4.7`，chromium版本为`87.0.4280.141`。
- - 自定义插件：可以在`electron/assets`下替换你本机的pepeflashplayer插件。
+ - 自定义：可以在`electron/assets`下替换你本机的pepeflashplayer插件，也可以替换你想播放的flash！
  - 测试：在win10, macOS Catalina 10.15.5加载成功。macOS Big Sur版本11.3.1加载插件失败。
 
 # 命令
